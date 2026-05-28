@@ -1,0 +1,2 @@
+"task_id","rep","support","alpha","method","n_test","runtime_sec","Accuracy","MacroPrecision","MacroRecall","MacroF1"
+1,1,40,1,"wasserstein_barycentric_prototype",50,2.09,0.64,0.76029304029304,0.64,0.656507936507936

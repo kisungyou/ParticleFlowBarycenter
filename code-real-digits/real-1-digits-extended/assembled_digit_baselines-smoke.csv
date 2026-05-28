@@ -1,0 +1,3 @@
+"task_id","rep","method","n_test","runtime_sec","Accuracy","MacroPrecision","MacroRecall","MacroF1"
+1,1,"euclidean_class_mean",50,0.004,0.74,0.775,0.74,0.743609168609169
+1,1,"euclidean_1nn",50,0.011,0.8,0.853412698412698,0.8,0.79468253968254

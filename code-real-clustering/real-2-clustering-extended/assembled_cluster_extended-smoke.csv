@@ -1,0 +1,2 @@
+"task_id","data","algorithm","base_algorithm","split","alpha","cluster_index","nclust","repeat_id","runtime_sec","niter","history_first","history_last","history_min","history_length","monotone_violations","max_history_increase","ARI","NMI","Silhouette","CH"
+1,"pbmc","kmeans","kmeans",NA,NA,4,8,1,0.309,NA,NA,NA,NA,0,NA,NA,0.0321448992769499,0.0648262218068892,0.032378768610809,65.6545212387564
