@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Initialization sensitivity for three fixed Gaussian problems with $m=50$. Each problem uses five independent pooled $k$-means starts. Differences are relative to the best objective attained among these five starts, not a certified global optimum.}
+\label{tab:gaussian-multistart}
+\begin{tabular}{rrrrrr}
+\toprule
+Problem & Best $F$ & Median $\Delta F$ & Max. $\Delta F$ & Update range & Capped \\
+\midrule
+1 & 208.726948 & 0.009036 & 0.01337 & 9--17 & 0 \\
+2 & 225.204346 & 0.008947 & 0.01399 & 10--22 & 0 \\
+3 & 218.768838 & 0.0005206 & 0.004223 & 11--20 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}

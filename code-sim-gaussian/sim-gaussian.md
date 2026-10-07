@@ -9,8 +9,13 @@ Kisung You
 
 ## Overview
 
-This notebook reproduces the Gaussian barycenter experiment from the
-paper. The purpose is to study finite-resolution behavior in a setting
+> **Original workflow.** This notebook uses the original iteration caps and native
+> stopping criteria. The [current replication guide](../README.md) points to the
+> checked experiments, saved results, and final PDF/PGF figures. Full mode here
+> runs the original workflow and does not reproduce the added paired comparisons
+> or certify convergence under the joint objective/residual rule.
+
+This notebook runs the original Gaussian barycenter workflow. The purpose is to study finite-resolution behavior in a setting
 where the population barycenter is known, to compare the full update
 with a damped update, and to give representative computational baselines
 using POT.
@@ -23,7 +28,7 @@ required.
 
 The first code cell is the only place where most users should edit the
 run. Use `run_mode <- "smoke"` for a quick check and
-`run_mode <- "full"` for the manuscript-scale reviewer-response grid.
+`run_mode <- "full"` for the original three-repetition grid.
 Full mode can be computationally expensive because exact OT subproblems
 dominate runtime.
 
@@ -65,7 +70,7 @@ if (run_compute) {
     g2_tasks <- 1:2
     pot_tasks <- 1
   } else {
-    # Core reviewer-response grid after reducing repetitions to keep exact OT feasible.
+    # Original three-repetition grid with native stopping criteria.
     g1_tasks <- 1:36
     g2_tasks <- 1:54
     pot_tasks <- 1:27
@@ -88,7 +93,7 @@ if (run_compute) {
   run_rscript_once(file.path("simulation-gaussian-extended", "04_assemble_runtime_scaling.R"))
 
   # POT is optional in smoke mode if Python/POT is unavailable. In full mode,
-  # it is part of the baseline comparison used in the paper.
+  # this earlier comparison is superseded by revision-work/gaussian.
   try({
     run_python_grid(
       file.path("pot-baselines", "01_pot_gaussian_baselines.py"),
@@ -107,14 +112,11 @@ if (run_compute) {
 ```
 
 
-    Python task failed: /Users/kyou/Desktop/ParticleFlowBarycenter/code-sim-gaussian/pot-baselines/01_pot_gaussian_baselines.py id=1
-    Log file: /Users/kyou/Desktop/ParticleFlowBarycenter/code-sim-gaussian/pot-baselines/logs/01_pot_gaussian_baselines_00001.log
-    Missing Python package 'POT' (import name: ot). Install with: pip install POT 
+The original smoke render did not execute POT because its dependency was missing. The current shared-input results and checks are in `../revision-work/gaussian`.
 
 ## Figures and tables
 
-In full mode, the following visualization script reproduces the
-manuscript figures and summary tables. In smoke mode, the same script
+In full mode, the visualization script produces the original figures and summary tables. Use `../manuscript-figures/build_figures.py` for the current manuscript figures. In smoke mode, the same script
 may have too little data for all panels, so we print the assembled smoke
 summaries instead.
 

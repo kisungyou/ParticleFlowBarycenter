@@ -1,0 +1,20 @@
+R version 4.5.1 (2025-06-13)
+Platform: aarch64-apple-darwin20
+Running under: macOS Tahoe 26.6.2
+
+Matrix products: default
+BLAS: recorded in published environment
+LAPACK: recorded in published environment
+
+locale:
+[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+
+time zone: America/New_York
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base
+
+loaded via a namespace (and not attached):
+[1] compiler_4.5.1    tools_4.5.1       Rcpp_1.1.2        T4transport_0.1.9
+[5] rbibutils_2.4.1   Rdpack_2.6.6

@@ -1,0 +1,98 @@
+{
+  "figures_built": 10,
+  "seconds": 73.048,
+  "python_version": "3.11.4",
+  "packages": {
+    "matplotlib": "3.11.1",
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "Pillow": "12.3.0"
+  },
+  "script_seconds": {
+    "gaussian_figures.py": 18.087,
+    "runtime_figure.py": 16.335,
+    "posterior_figures.py": 18.967,
+    "application_figures.py": 19.645
+  },
+  "comparison": {
+    "fig-real-clustering-1": {
+      "pgf_matches_published": true,
+      "pdf_sha256": "dd8c6c46a017ce87bd70abd8ff3ac7c4f0107935447ac7f657dc10e068181c94",
+      "raster_dependencies_match_published": true
+    },
+    "fig-real-clustering-2": {
+      "pgf_matches_published": true,
+      "pdf_sha256": "a09b7f242d17a956784aafd4c1ebeea5ee5d764a37420618997d4ac0caf2d261",
+      "raster_dependencies_match_published": true
+    },
+    "fig-real-digits-1": {
+      "pgf_matches_published": true,
+      "pdf_sha256": "94b45529d2616d2b8f0b23af1f5c784c5361363e3d77541d4743e17b5629ca69",
+      "raster_dependencies_match_published": true
+    },
+    "fig-real-digits-2": {
+      "pgf_matches_published": true,
+      "pdf_sha256": "9d34e9c3ea144be0a61eabd9c46988fba333d9fd648d968d5ff2696bf7ccfffb",
+      "raster_dependencies_match_published": true
+    },
+    "fig-sim-gauss-2": {
+      "pgf_matches_published": true,
+      "pdf_sha256": "d6ccdec707a24cc271b0c631ee89c5f7fe571595033597712a34019b0052ad4d",
+      "raster_dependencies_match_published": true
+    },
+    "fig-sim-gauss-3": {
+      "pgf_matches_published": true,
+      "pdf_sha256": "e4b2ceef38db573a807ebd535c77ca2092a6d4f4ca867989d411b77b714eb766",
+      "raster_dependencies_match_published": true
+    },
+    "fig-sim-gauss-4": {
+      "pgf_matches_published": true,
+      "pdf_sha256": "5fa6981fd4a54b351fbb355883d43e1d77fe660d45823c23c45ca5f2d8d907cb",
+      "raster_dependencies_match_published": true
+    },
+    "fig-sim-normal-1": {
+      "pgf_matches_published": true,
+      "pdf_sha256": "efd1b86eea8b8f736bee5f171d8c3df0a9b133072e78ed23efa8ae9ef55f93ea",
+      "raster_dependencies_match_published": true
+    },
+    "fig-sim-normal-2": {
+      "pgf_matches_published": true,
+      "pdf_sha256": "3d447ab8a45a0c0ef8c4b8fa613a782d6f6971530964bb56b67a31b62483da9a",
+      "raster_dependencies_match_published": true
+    },
+    "fig-sim-normal-3": {
+      "pgf_matches_published": true,
+      "pdf_sha256": "ee2670ecf64fb62aabc46b39101420d038097cb0e58dc26d90ed3a279ac1531b",
+      "raster_dependencies_match_published": true
+    }
+  },
+  "pdf_hash_note": "PDF creation metadata can change hashes between otherwise identical builds. PGF and raster hashes compare the plotted contents.",
+  "optional_r_exports": {
+    "digit8_image.csv": true,
+    "digit8_threshold.txt": true,
+    "pca_fashion.csv": true,
+    "pca_fashion_palette.csv": true,
+    "pca_pbmc.csv": true,
+    "pca_pbmc_palette.csv": true,
+    "posterior_analytic.csv": true,
+    "posterior_barycenter.csv": true,
+    "posterior_full_mcmc.csv": true,
+    "posterior_subset_1.csv": true,
+    "posterior_subset_2.csv": true,
+    "posterior_subset_3.csv": true,
+    "posterior_subset_4.csv": true,
+    "posterior_subset_5.csv": true
+  },
+  "pdf_render_matches_published_at_120dpi": {
+    "fig-real-clustering-1": true,
+    "fig-real-clustering-2": true,
+    "fig-real-digits-1": true,
+    "fig-real-digits-2": true,
+    "fig-sim-gauss-2": true,
+    "fig-sim-gauss-3": true,
+    "fig-sim-gauss-4": true,
+    "fig-sim-normal-1": true,
+    "fig-sim-normal-2": true,
+    "fig-sim-normal-3": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "n_runs": 12,
+  "all_dual_converged": true,
+  "objective_increase_violations": 0,
+  "max_plan_feasibility_error": 0,
+  "max_normalized_terminal_residual": 0,
+  "max_difference_from_native_support": 3.638e-12
+}

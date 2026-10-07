@@ -1,0 +1,58 @@
+{
+  "publication_role": "Current R2 Gaussian resolution, WASP conditional diagnostics, and retained-draw sensitivity",
+  "main_posterior_archive": {
+    "repository_file": "data/normal-simplified-reduced.RData",
+    "sha256": "c0ec34100bebd75fa77165b11ccbbe993a3e9c8d2cd696209f4e780b4c7d8073",
+    "selected_K": [
+      5,
+      10,
+      20
+    ],
+    "selected_repetitions": [
+      1,
+      2,
+      3
+    ],
+    "index_rule": "(K-2)*50+r; 1-based R indexing",
+    "draws_per_subset": 100
+  },
+  "sensitivity_posterior_archive": {
+    "original_filename": "normal-simplified.RData",
+    "sha256": "2d5db1ec3d66a28322990fcf8851b18a66d2fc42e3bd468dae86187ca21e81e7",
+    "selected_K": 5,
+    "selected_repetitions": [
+      1,
+      2,
+      3
+    ],
+    "draws_per_subset": 200,
+    "external_archive_needed_for_reproduction": false,
+    "note": "Only the required three configurations are bundled; the complete original archive is omitted."
+  },
+  "gaussian_data_seeds": [
+    100001,
+    100002,
+    100003
+  ],
+  "gaussian_oracle_seeds": [
+    300001,
+    300002,
+    300003
+  ],
+  "gaussian_initializer_seed": "200000+1000*r+m",
+  "wasp_initializer_seed": "600000+10000*r+100*K+m",
+  "shared_wasp_oracle_and_covariate_seed": 700000,
+  "sensitivity_initializer_seed": "950000+r",
+  "sensitivity_permutation_seed": "960000+100*r+j",
+  "initializer": "Saved coordinates captured using the Gaussian initializer in installed T4transport0.1.9; average input means and sample covariance diagonals plus1e-8 jitter.",
+  "native_feature_required_only_for_fitting": "T4transport namespace: cpp_free_bary_gradient_damped_init",
+  "installed_T4transport_version": "0.1.9",
+  "installed_source_commit": "not available in installed package metadata",
+  "R_version": "4.5.1",
+  "input_bundles": [
+    "gaussian_inputs.rds",
+    "wasp_inputs.rds",
+    "sensitivity_inputs.rds",
+    "initial_supports.rds"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "experiment": "central-k center-only identical-summary paired check",
+  "data_availability": [
+    {
+      "data": "pbmc",
+      "filename": "processed_pbmc.RData",
+      "k": 10,
+      "available": true
+    },
+    {
+      "data": "news",
+      "filename": "processed_news.RData",
+      "k": 20,
+      "available": false
+    },
+    {
+      "data": "fashion",
+      "filename": "processed_fmnist.RData",
+      "k": 10,
+      "available": true
+    }
+  ],
+  "repetitions": 3,
+  "local_nstart": 10,
+  "local_iter_max": 100,
+  "local_max_n": 5000,
+  "summary_weights": "uniform",
+  "seed_formula": "1000000+10000*repeat+100*6+method_id; method_id=3 for S5,4 for S10",
+  "dvq_initialization": "T4transport internal aux_ginit at seed+999, Gaussian moments from summaries",
+  "dvq_solver": "T4transport::wasserstein exact unregularized LP; explicit alpha1 MM updates",
+  "dvq_stop": "at returned iterate: absolute objective change/max(summary variance,previous objective)<=1e-8 AND sqrt(weighted residual2/summary variance)<=1e-6",
+  "max_updates": 100,
+  "comparator": "stats::kmeans on Sk centers; nstart10 iter.max100 seed+999",
+  "labels_used_only_for_evaluation": true,
+  "distortion_definition": "mean squared Euclidean distance of ALL original reduced observations to nearest final center",
+  "nmi_definition": "mclustcomp nmi1, matching original assembly",
+  "communication": "Skd real coordinates, known equal k,S; no local cluster-mass counts for either method",
+  "timing": "local summary and central aggregation recorded separately; prediction/metric/verification excluded; concurrent runs on host make timing descriptive",
+  "system": {
+    "sysname": "Darwin",
+    "release": "25.6.0",
+    "version": "Darwin Kernel Version 25.6.0: Fri Jul 31 19:18:49 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T6000",
+    "machine": "arm64"
+  },
+  "package_versions": [
+    {
+      "package": "T4transport",
+      "version": "0.1.9"
+    },
+    {
+      "package": "mclustcomp",
+      "version": "0.3.5"
+    },
+    {
+      "package": "jsonlite",
+      "version": "2.0.0"
+    }
+  ],
+  "thread_env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "source_helpers": "code-real-clustering/common/rev_utils.R"
+}

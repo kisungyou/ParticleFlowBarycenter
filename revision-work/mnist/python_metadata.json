@@ -1,0 +1,21 @@
+{
+  "python": "3.11.4",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "POT": "0.9.7.post1",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "CPU": "Apple arm64; CPU model not available in sandbox",
+  "OT": "POT emd2, network simplex, float64, numThreads=1, numItermax=1000000",
+  "input_sha256": {
+    "point_clouds.csv": "bdcda4c9c4554584bee75d9ba738cfe151e87b49f8aa1acfd83c0d26d5a639ff",
+    "splits.json": "3cb93eac68e5fb5e47bd4acd3b9f65cd4f9db2438735ec45e9b080ad24b33aa5"
+  },
+  "timing": "Single-process sequential class construction and classification; preprocessing, file I/O, and distance validation excluded; stored checkpoints preserve measured computation timings.",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  }
+}

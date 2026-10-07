@@ -1,0 +1,52 @@
+{
+  "python": "3.11.4 (main, Jul  5 2023, 08:40:20) [Clang 14.0.6 ]",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "POT": "0.9.7.post1",
+  "machine": "arm64",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "processor": "Apple M1 Pro",
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "threadpools": [
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libomp",
+      "version": null
+    }
+  ],
+  "n_inputs": 4,
+  "n_per_input": 300,
+  "n_oracle": 1000,
+  "outer_iteration_cap": 300,
+  "inner_iteration_cap": 20000,
+  "process_peak_rss_bytes": 239452160,
+  "objective_tol": 1e-08,
+  "normalized_residual_tol": 1e-07,
+  "inner_tol": 1e-09,
+  "regularization_ratios": [
+    0.1,
+    0.3,
+    1.0
+  ],
+  "repetitions": 10,
+  "supports": [
+    50,
+    100,
+    200
+  ],
+  "time_scope": "Optimization plus convergence diagnostics; input generation, initialization, external exact scoring, and oracle scoring excluded.",
+  "hardware": {
+    "chip_type": "Apple M1 Pro",
+    "physical_memory": "16 GB",
+    "number_processors": "proc 10:8:2:0",
+    "machine_model": "MacBookPro18,1"
+  }
+}

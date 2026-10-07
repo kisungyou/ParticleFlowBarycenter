@@ -1,0 +1,9 @@
+# Preserve serialized evidence and generated figure bytes across checkouts.
+*.csv -text whitespace=cr-at-eol
+*.pgf -text
+*.rds binary
+*.RData binary
+*.npz binary
+*.gz binary
+*.png binary
+*.pdf binary

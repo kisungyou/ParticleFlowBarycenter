@@ -1,0 +1,13 @@
+"data","algorithm","n_available","native_maxiter","n_at_cap","min_niter","max_niter","native_monotone_violations","dual_rule_verified"
+"fashion","DVQ-10-alpha-0.50",5,50,0,16,18,0,FALSE
+"news","DVQ-10-alpha-0.50",5,50,0,15,22,0,FALSE
+"pbmc","DVQ-10-alpha-0.50",6,50,0,15,22,0,FALSE
+"fashion","DVQ-10-alpha-1.00",5,50,0,2,6,0,FALSE
+"news","DVQ-10-alpha-1.00",5,50,0,4,8,0,FALSE
+"pbmc","DVQ-10-alpha-1.00",6,50,0,3,5,0,FALSE
+"fashion","DVQ-5-alpha-0.50",5,50,0,16,18,0,FALSE
+"news","DVQ-5-alpha-0.50",5,50,0,15,20,0,FALSE
+"pbmc","DVQ-5-alpha-0.50",6,50,0,15,17,0,FALSE
+"fashion","DVQ-5-alpha-1.00",5,50,0,3,5,0,FALSE
+"news","DVQ-5-alpha-1.00",5,50,0,2,3,0,FALSE
+"pbmc","DVQ-5-alpha-1.00",6,50,0,3,4,0,FALSE

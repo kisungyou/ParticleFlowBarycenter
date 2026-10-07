@@ -9,7 +9,13 @@ Kisung You
 
 ## Overview
 
-This notebook reproduces the handwritten digit prototype experiment.
+> **Original workflow.** This notebook uses the original iteration caps and native
+> stopping criteria. The [current replication guide](../README.md) points to the
+> checked experiments, saved results, and final PDF/PGF figures. Full mode here
+> runs the original workflow and does not reproduce the added paired comparisons
+> or certify convergence under the joint objective/residual rule.
+
+This notebook runs the original handwritten digit prototype experiment.
 Images are converted to point-cloud measures by Otsu thresholding, one
 free-support Wasserstein barycenter is built for each class, and test
 images are classified by nearest prototype in Wasserstein distance.
@@ -21,8 +27,7 @@ external MNIST file is needed.
 
 ## Setup
 
-Edit the first cell to choose a smoke test or the full reviewer-response
-grid.
+Edit the first cell to choose a smoke test or the full original grid.
 
 ``` r
 # User settings ------------------------------------------------------------
@@ -148,6 +153,4 @@ if (run_mode == "full") {
 ## Notes
 
 The digit experiment is best interpreted as a prototype-compression
-example, not as a state-of-the-art classifier. The Euclidean baselines
-are included to show how much information is lost when grayscale images
-are reduced to thresholded support geometry.
+example, not as a state-of-the-art classifier. These baselines change both representation and prototype construction, so their accuracy difference cannot be attributed specifically to thresholding.

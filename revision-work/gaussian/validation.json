@@ -1,0 +1,13 @@
+{
+  "paired_fits": 150,
+  "multistart_fits": 15,
+  "input_checksums": "verified",
+  "exact_objective_max_difference": 5.684341886080801e-13,
+  "rescored_saved_cases": [
+    "rep01_m050",
+    "rep01_m100",
+    "rep01_m200"
+  ],
+  "all_inner_solves_converged": true,
+  "maximum_marginal_error": 9.04909723542513e-10
+}

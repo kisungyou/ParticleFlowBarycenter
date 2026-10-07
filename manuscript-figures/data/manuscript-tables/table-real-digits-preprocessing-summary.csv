@@ -1,0 +1,2 @@
+n_images,raw_positive_pixels_mean,otsu_active_pixels_mean,otsu_active_pixels_sd,otsu_threshold_mean,otsu_threshold_sd,raw_total_intensity_mean
+5000,151.46540000000002,109.232,33.50594433322452,0.0044518594678544365,0.00154059655169261,1

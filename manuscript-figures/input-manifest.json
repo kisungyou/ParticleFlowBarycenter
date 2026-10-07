@@ -1,0 +1,125 @@
+{
+  "description": "Cached plotting data, manuscript summaries and faithful legacy plot layers supplied with this figure package.",
+  "files": {
+    "data/digit8_image.csv": {
+      "sha256": "522cc0ffc12db1251767503fa3f2f441061ac9b18e801af894094e2659a203c2",
+      "bytes": 6247
+    },
+    "data/digit8_threshold.txt": {
+      "sha256": "0766bb0a1ee1b317691e7a26d338e098e57d6dcf17744e9264911a201f31d621",
+      "bytes": 22
+    },
+    "data/gaussian_support_audit.csv": {
+      "sha256": "d9dd92879928095d74c7c290ea07d0633a09ed72e212c3832d1b741ce1ebf2b6",
+      "bytes": 1998
+    },
+    "data/manuscript-tables/table-real-clustering-best-ari-summary.csv": {
+      "sha256": "7fb7b81e7bec56c8ba6a340d85c9809982f2b8e34d022a61073c4be07d51fb8d",
+      "bytes": 2233
+    },
+    "data/manuscript-tables/table-real-clustering-central-summary.csv": {
+      "sha256": "df23e7a280310237ec2214bb6d231067e29068f907aad4867aa705e3424bda71",
+      "bytes": 2472
+    },
+    "data/manuscript-tables/table-real-clustering-dvq-diagnostics.csv": {
+      "sha256": "5d8dbaacb72d7a26970d91904001015b3f7592bbabce57f6817d0960b668727b",
+      "bytes": 881
+    },
+    "data/manuscript-tables/table-real-digits-baseline-summary.csv": {
+      "sha256": "840bb2b9bc8e97e71e771a7dab259134cd04b8b72130fd1b5a77ac4ea1b08ed5",
+      "bytes": 292
+    },
+    "data/manuscript-tables/table-real-digits-centroid-summary.csv": {
+      "sha256": "2d7e6e16ec5c45999fa1744c37c4d575cc5b5381a99e9a90718c1a52c075b420",
+      "bytes": 725
+    },
+    "data/manuscript-tables/table-real-digits-classification-summary.csv": {
+      "sha256": "dfea191616bbb0ebd77c58ffe1c0f0e8e6d59aa227088fcd0cfde061e7d56d96",
+      "bytes": 622
+    },
+    "data/manuscript-tables/table-real-digits-preprocessing-summary.csv": {
+      "sha256": "a454525a5326dbfeff007d5015fbc18b98a5f07da7d68836d4034352da329d47",
+      "bytes": 237
+    },
+    "data/manuscript-tables/table-sim-gauss-pot-summary.csv": {
+      "sha256": "3478a9286c3b7cf469894a21d73ef58a4a4c330a38c0f73fadeeeab3b6c6ff24",
+      "bytes": 4466
+    },
+    "data/manuscript-tables/table-sim-gauss-resolution-alpha-summary.csv": {
+      "sha256": "9d3fbc1f1fe87324af2208dee2f56c2016eded2538191c0b2aa55302a57858f3",
+      "bytes": 3623
+    },
+    "data/manuscript-tables/table-sim-normal-full-reference.csv": {
+      "sha256": "86bbec2be0902bd3b8b10527642a4722cb752c3f9b5700ce9c152c6efc6e245b",
+      "bytes": 195
+    },
+    "data/manuscript-tables/table-sim-normal-wasp-summary.csv": {
+      "sha256": "45c20201fc7cccc3a73904d8bc570a1961c0871098f195248fc487a57ddaaa2e",
+      "bytes": 8773
+    },
+    "data/pca_fashion.csv": {
+      "sha256": "d4a3084cba10f9a2c5d2abaa941169900c950abb9132440d3c3b544f81149085",
+      "bytes": 209119
+    },
+    "data/pca_fashion_palette.csv": {
+      "sha256": "6ddc6e239c4b059039aa4e3ab6e1ce4b015be15c511554c13df7176a86c93f5a",
+      "bytes": 137
+    },
+    "data/pca_pbmc.csv": {
+      "sha256": "176101b34c1da775d925692a77fa87c5bf6401769da4d38c8569e98db0bc293d",
+      "bytes": 109313
+    },
+    "data/pca_pbmc_palette.csv": {
+      "sha256": "9fa96e1170edbe26d8a181be731f4c600a2f2bc7cd7850784fe449bd2904cd9d",
+      "bytes": 124
+    },
+    "data/posterior_analytic.csv": {
+      "sha256": "b35bb1121921747c6c98d9d16f94b348d55360b72b6aa29900de329180fe3a19",
+      "bytes": 1773914
+    },
+    "data/posterior_barycenter.csv": {
+      "sha256": "ab77124370b34c50457f1cee7dd12933513ef0e4f93f8369b320b19526a3ba45",
+      "bytes": 1779528
+    },
+    "data/posterior_full_mcmc.csv": {
+      "sha256": "d8e0ed052b29c747c8b27520a6d71382231c501a7cc2d1f88d8b8622b1becac0",
+      "bytes": 1779902
+    },
+    "data/posterior_subset_1.csv": {
+      "sha256": "a3f345731792c73453a1b2b35f847893fc76a0d66780cee773f4bf9234040c95",
+      "bytes": 1777166
+    },
+    "data/posterior_subset_2.csv": {
+      "sha256": "e2fd05a9134538ea316f26c8ce2d7f3f0fbacec65c9806ff0b634ad3acdccedb",
+      "bytes": 1782137
+    },
+    "data/posterior_subset_3.csv": {
+      "sha256": "67f3bd9eefbf65f794d3456199c808dc64f7ab017a553019533dbfc37422f331",
+      "bytes": 1780052
+    },
+    "data/posterior_subset_4.csv": {
+      "sha256": "7e8df45c6c22ab7060b375782dc0664f7f549eb8a9f0abc2278e2427cf81a767",
+      "bytes": 1780688
+    },
+    "data/posterior_subset_5.csv": {
+      "sha256": "aa49faf8cbf4ed6c18be9ae704431b6a0f2b42bda8c1c66cb641fcb1d372f2ad",
+      "bytes": 1782956
+    },
+    "legacy-panels/fig-real-clustering-1.png": {
+      "sha256": "914b509c3eae1efa913aa9eebf4387820bc36dd64afdef69972ca5d351d35c50",
+      "bytes": 771979
+    },
+    "legacy-panels/fig-real-clustering-2.png": {
+      "sha256": "66f3107c36f49550430537f690821d82dbb132846ba33ce3c66b9abb15e681c7",
+      "bytes": 600178
+    },
+    "legacy-panels/fig-real-digits-2.png": {
+      "sha256": "5a580c65fb396a4c17ff3c332eabed4cbee07e0ee10551d52a274c6de083c6ce",
+      "bytes": 394155
+    },
+    "legacy-panels/fig-sim-gauss-3.png": {
+      "sha256": "937f08b6b6ccd237ebbb0f32eb4015bc82d30b03bcbe07d47d31f589f8d3ee06",
+      "bytes": 181422
+    }
+  }
+}

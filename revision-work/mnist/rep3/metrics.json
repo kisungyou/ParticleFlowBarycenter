@@ -1,0 +1,15 @@
+{
+  "rep": 3,
+  "method": "10-candidate_point-cloud_medoid",
+  "n_train": 1000,
+  "n_test": 2500,
+  "construction_sec": 11.8630509590148,
+  "classification_sec": 32.682686998916324,
+  "mean_atoms": 128.5,
+  "min_atoms": 64,
+  "max_atoms": 194,
+  "Accuracy": 0.5716,
+  "MacroPrecision": 0.6158492319667614,
+  "MacroRecall": 0.5716,
+  "MacroF1": 0.5818326911786507
+}

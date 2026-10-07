@@ -17,13 +17,18 @@ knitr:
 
 ## Overview
 
-This notebook reproduces the distributed vector quantization (DVQ) experiment.
+> **Original workflow.** This notebook uses the original iteration caps and native
+> stopping criteria. The [current replication guide](../README.md) points to the
+> checked experiments, saved results, and final PDF/PGF figures. Full mode here
+> runs the original workflow and does not reproduce the added paired comparisons
+> or certify convergence under the joint objective/residual rule.
+
+This notebook runs the original distributed vector quantization (DVQ) experiment.
 The goal is to evaluate whether free-support Wasserstein barycenters can be used
-as compressed clustering prototypes.  The notebook compares DVQ with standard
+as compressed clustering prototypes.  The notebook compares DVQ with sampled-fit
 `k`-means and spherical `k`-means.
 
-The original manuscript experiment used PBMC, 20NEWS, and FASHION.  Because the
-processed 20NEWS file too large to be uploaded to GitHub, this notebook is configured by default to run the reader-friendly two-dataset version using PBMC and FASHION only.  
+The manuscript includes PBMC, 20NEWS, and FASHION. The processed 20NEWS matrix is not available in this archive. This notebook therefore runs PBMC and FASHION by default. The current paired comparison likewise includes only these two datasets.
 
 For the default two-dataset run, place the following processed files in `../data/`:
 
@@ -35,7 +40,7 @@ Each file should contain a processed feature matrix `X_reduced` and a label vect
 
 ## Setup
 
-Edit the first cell to choose a smoke test or the full reviewer-response grid.
+Edit the first cell to choose a smoke test or the full original grid.
 
 ```{r user-settings}
 # User settings ------------------------------------------------------------
@@ -46,8 +51,8 @@ jobs <- 1L                # use 1 for smoke; increase for full runs on a worksta
 experiment_scale <- "core"
 run_label <- ""           # automatic: "smoke-nonews" or "core-nonews"
 
-# Data sets to include.  The default excludes 20NEWS because the processed
-# file is large.  To reproduce the full three-dataset manuscript version, use
+# Data sets to include. The processed 20NEWS matrix is not bundled.
+# To run the original three-dataset workflow after obtaining that matrix, use
 # c("pbmc", "news", "fashion") and put processed_news.RData in ../data/.
 cluster_datasets <- c("pbmc", "fashion")
 # -------------------------------------------------------------------------
@@ -136,7 +141,5 @@ if (run_mode == "full") {
 ## Notes
 
 The reference labels are used only for evaluation through ARI and NMI.  The
-Silhouette and Calinski--Harabasz indices are internal geometric criteria.  This
-default notebook omits 20NEWS only for repository-size reasons; the same code can
-include it by changing `cluster_datasets` and adding the processed data file.
+Silhouette and Calinski--Harabasz indices are internal geometric criteria.  The original method-specific seeds make the comparisons descriptive rather than paired. The current matched-summary comparison is in `../revision-work/dvq`. Running 20NEWS also requires its missing processed matrix.
 

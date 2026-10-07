@@ -1,0 +1,10 @@
+{
+  "R_version": "R version 4.5.1 (2025-06-13)",
+  "T4transport_version": "0.1.9",
+  "platform": "aarch64-apple-darwin20",
+  "preprocessing_all_5000_sec": 9.424,
+  "data": "T4transport::digits: 5000 images, 500 per digit",
+  "preprocessing": "Same rev_img2coords as published: Otsu, 256 bins; foreground coordinates in [-1,1]^2; uniform masses",
+  "criterion": "Mean squared exact W2 to all100 class-training images, minimized among first10 in shuffled training order",
+  "old_helper_md5": "04da12e92e8e3b1952b8e9d731b714a7"
+}

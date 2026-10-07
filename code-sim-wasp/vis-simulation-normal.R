@@ -447,7 +447,9 @@ ggsave(filename=save_path,
        units="in")
 copy_to_manuscript(save_path)
 
-# figure 3 : predictive, uncertainty, and runtime diagnostics -------------
+# figure 3 : conditional-mean, interval-inclusion, and runtime diagnostics -
+# Legacy pred_* CSV fields concern x^T beta and omit future-response noise.
+# Inclusion is descriptive, not predictive or repeated-data calibration.
 save_path = file.path(fig_dir, "fig-sim-normal-3.png")
 
 pred_rmse <- aux_ci(df_wasp, c("nsplit", "support_lab", "alpha_lab"), "pred_rmse_mean")
@@ -466,7 +468,7 @@ fig_3_a <- ggplot(pred_rmse, aes(x=nsplit, y=mean,
   geom_errorbar(aes(ymin=lower, ymax=upper), linewidth=0.4, alpha=0.75, width=0.15) +
   scale_color_manual(values = support_cols, limits = names(support_cols), breaks = names(support_cols), name = "Support size", drop = TRUE) +
   scale_linetype_manual(values = alpha_ltys, limits = names(alpha_ltys), breaks = names(alpha_ltys), name = "Step size", drop = TRUE) +
-  labs(x = "Number of subsets", y = "Predictive RMSE")
+  labs(x = "Number of subsets", y = "Conditional-mean RMSE")
 if (is.finite(full_pred_rmse)) fig_3_a <- fig_3_a + geom_hline(yintercept = full_pred_rmse, color="black", linetype="dotted")
 
 fig_3_b <- ggplot(pred_cov, aes(x=nsplit, y=mean,
@@ -477,7 +479,7 @@ fig_3_b <- ggplot(pred_cov, aes(x=nsplit, y=mean,
   geom_hline(yintercept = 0.95, color="gray40", linetype="dashed") +
   scale_color_manual(values = support_cols, limits = names(support_cols), breaks = names(support_cols), name = "Support size", drop = TRUE) +
   scale_linetype_manual(values = alpha_ltys, limits = names(alpha_ltys), breaks = names(alpha_ltys), name = "Step size", drop = TRUE) +
-  labs(x = "Number of subsets", y = "Predictive coverage")
+  labs(x = "Number of subsets", y = "Conditional-mean inclusion")
 if (is.finite(full_pred_cov)) fig_3_b <- fig_3_b + geom_hline(yintercept = full_pred_cov, color="black", linetype="dotted")
 
 fig_3_c <- ggplot(post_cov, aes(x=nsplit, y=mean,
@@ -488,7 +490,7 @@ fig_3_c <- ggplot(post_cov, aes(x=nsplit, y=mean,
   geom_hline(yintercept = 0.95, color="gray40", linetype="dashed") +
   scale_color_manual(values = support_cols, limits = names(support_cols), breaks = names(support_cols), name = "Support size", drop = TRUE) +
   scale_linetype_manual(values = alpha_ltys, limits = names(alpha_ltys), breaks = names(alpha_ltys), name = "Step size", drop = TRUE) +
-  labs(x = "Number of subsets", y = "Marginal coverage")
+  labs(x = "Number of subsets", y = "Coefficient inclusion")
 if (is.finite(full_post_cov)) fig_3_c <- fig_3_c + geom_hline(yintercept = full_post_cov, color="black", linetype="dotted")
 
 fig_3_d <- ggplot(runtime_supp, aes(x=support_lab, y=mean,

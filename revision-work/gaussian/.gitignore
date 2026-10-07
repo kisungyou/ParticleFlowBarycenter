@@ -1,0 +1,7 @@
+__pycache__/
+matplotlib-cache/
+.public-plan-check-*/
+inputs/*/*.csv
+runs/*_partial.csv
+rerun_metadata.json
+rerun_R_versions.txt

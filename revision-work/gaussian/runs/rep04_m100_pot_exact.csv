@@ -1,0 +1,2 @@
+id,rep,support,method,reg_ratio,runtime_sec,niter,objective,residual,relative_change,marginal_error,status,scale2,regularized_objective,exact_residual,all_inner_converged,max_marginal_error,max_objective_increase
+rep04_m100,4,100,pot_exact,0,0.23937133298022673,14,226.36896474876585,0.0,2.5496992637746324e-09,3.469446951953614e-16,converged,6.3445002596185445,,0.0,True,3.469446951953614e-16,-5.77172784232971e-07

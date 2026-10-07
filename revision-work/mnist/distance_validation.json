@@ -1,0 +1,7 @@
+{
+  "pairs": 20,
+  "max_abs_squared_W2_difference": 1.5265566588595902e-16,
+  "elapsed_sec": 0.025920042011421174,
+  "threshold": 1e-09,
+  "passed": true
+}

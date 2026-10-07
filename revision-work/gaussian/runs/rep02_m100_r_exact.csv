@@ -1,0 +1,2 @@
+"id","rep","support","method","reg_ratio","runtime_sec","niter","objective","residual","relative_change","marginal_error","status","scale2","max_marginal_error","max_objective_increase"
+"rep02_m100",2,100,"r_exact",0,1.381,10,225.082887757183,0,0,4.68375338513738e-17,"converged",7.44854613794854,7.28583859910259e-17,0

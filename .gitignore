@@ -1,0 +1,16 @@
+# Local caches and operating-system files
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.Rhistory
+.Rproj.user/
+.quarto/
+*_cache/
+matplotlib-cache/
+.mplconfig/
+
+# Rebuilds are separate from the archived, published outputs
+manuscript-figures/build/
+revision-work/**/recomputed/
+validation-output/

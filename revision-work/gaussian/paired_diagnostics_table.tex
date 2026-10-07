@@ -1,0 +1,29 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Paired Gaussian solver diagnostics across ten independent problems per support size. Entries for objective differences and iterations are means (sample SD). Each objective difference subtracts the exact Python/POT result on the same inputs and initialization; differences below $10^{-10}$ are rounded to zero. The final two columns give the number of iteration-limit exits and the largest final normalized residual; capped runs remain in all summaries.}
+\label{tab:paired-gaussian-diagnostics}
+\begin{tabular}{llrrrr}
+\toprule
+$m$ & Implementation & $F-F_{\mathrm{POT}}$ & Updates & Capped & Max. residual \\
+\midrule
+50 & R/T4 exact MM & 0 (0) & 11.8 (2.4) & 0 & $2.24\times 10^{-32}$ \\
+50 & Python/POT exact & 0 (0) & 11.8 (2.4) & 0 & $1.72\times 10^{-33}$ \\
+50 & Sinkhorn $0.1s^2$ & 0.0881 (0.02) & 178 (40) & 0 & $9.98\times 10^{-8}$ \\
+50 & Sinkhorn $0.3s^2$ & 0.577 (0.14) & 231 (48) & 2 & $1.27\times 10^{-7}$ \\
+50 & Sinkhorn $s^2$ & 3.91 (1.1) & 178 (62) & 1 & $9.97\times 10^{-8}$ \\
+\addlinespace
+100 & R/T4 exact MM & 0 (0) & 9.7 (1.8) & 0 & $5.91\times 10^{-32}$ \\
+100 & Python/POT exact & 0 (0) & 9.7 (1.8) & 0 & $6.36\times 10^{-33}$ \\
+100 & Sinkhorn $0.1s^2$ & 0.143 (0.028) & 162 (24) & 0 & $9.98\times 10^{-8}$ \\
+100 & Sinkhorn $0.3s^2$ & 0.681 (0.16) & 237 (35) & 1 & $1.27\times 10^{-7}$ \\
+100 & Sinkhorn $s^2$ & 4.03 (1.1) & 176 (70) & 1 & $9.95\times 10^{-8}$ \\
+\addlinespace
+200 & R/T4 exact MM & 0 (0) & 10.6 (2.2) & 0 & $1.42\times 10^{-31}$ \\
+200 & Python/POT exact & 0 (0) & 10.6 (2.2) & 0 & $1.90\times 10^{-32}$ \\
+200 & Sinkhorn $0.1s^2$ & 0.18 (0.042) & 150 (19) & 0 & $9.99\times 10^{-8}$ \\
+200 & Sinkhorn $0.3s^2$ & 0.737 (0.15) & 254 (29) & 0 & $9.99\times 10^{-8}$ \\
+200 & Sinkhorn $s^2$ & 4.06 (1.1) & 168 (82) & 2 & $9.98\times 10^{-8}$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,45 @@
+{
+  "final_rows": 150,
+  "paired_repetitions_per_support": 10,
+  "exact_native_max_difference": 1.7763568394002505e-15,
+  "largest_marginal_error_across_all_iterations": 9.04909723542513e-10,
+  "exact_objective_pair_max_abs_difference": 5.968558980384842e-13,
+  "caps_by_method": {
+    "r_exact": 0,
+    "pot_exact": 0,
+    "sinkhorn_0.1": 0,
+    "sinkhorn_0.3": 3,
+    "sinkhorn_1": 4
+  },
+  "median_runtime_by_method": {
+    "r_exact": 1.354,
+    "pot_exact": 0.17348560449318023,
+    "sinkhorn_0.1": 7.30888152049738,
+    "sinkhorn_0.3": 3.6295604994811583,
+    "sinkhorn_1": 0.8101092710276134
+  },
+  "mean_w2_by_method": {
+    "r_exact": 0.5048831507631756,
+    "pot_exact": 0.5048831507631755,
+    "sinkhorn_0.1": 0.667401524592652,
+    "sinkhorn_0.3": 1.0076360136780396,
+    "sinkhorn_1": 2.070528408784693
+  },
+  "mean_cov_error_by_method": {
+    "r_exact": 0.09287503960361586,
+    "pot_exact": 0.09287503960361523,
+    "sinkhorn_0.1": 0.20784633229112792,
+    "sinkhorn_0.3": 0.5615821502219334,
+    "sinkhorn_1": 1.9572567028783956
+  },
+  "max_residual_by_method": {
+    "r_exact": 1.41637307566365e-31,
+    "pot_exact": 1.8977710098334496e-32,
+    "sinkhorn_0.1": 9.986411152023323e-08,
+    "sinkhorn_0.3": 1.273523697122877e-07,
+    "sinkhorn_1": 9.981008244691945e-08
+  },
+  "any_inner_nonconvergence": false,
+  "multistart_capped": 0,
+  "multistart_max_objective_range": 0.013990383302115106
+}

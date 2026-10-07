@@ -1,0 +1,209 @@
+{
+  "description": "Exact copied artifacts used by the current manuscript, including required PGF raster dependencies.",
+  "files": {
+    "fig-sim-gauss-2.pdf": {
+      "figure": 1,
+      "sha256": "a2d1b16f901b186bca1381ab43be851b13ff0b550a4bcc40a04b7d3b13b10abf"
+    },
+    "fig-sim-gauss-2.pgf": {
+      "figure": 1,
+      "sha256": "0b07b29f8bd45252e49e634c8f4c150e35ea4159fa20257e73c69f5b48f01503"
+    },
+    "fig-sim-gauss-3.pdf": {
+      "figure": 2,
+      "sha256": "936d5a09376edb55d1ecae0f13506dc4b37848ad8490d6d2a3e31b12a2f67896"
+    },
+    "fig-sim-gauss-3.pgf": {
+      "figure": 2,
+      "sha256": "f353cfcb703fc64ed4b3defcce09b76dec72e13f543fa25123bedb3ab1c5b0c7"
+    },
+    "fig-sim-gauss-3-img0.png": {
+      "figure": 2,
+      "sha256": "bb89416a89b07e0268970386e85772d50b16be57be426f227e432b1571344b82"
+    },
+    "fig-sim-gauss-3-img1.png": {
+      "figure": 2,
+      "sha256": "9cfe9ced6ee3380d030337dfbeeebd9ee3f59e039a52c9fdb6601d44b84c60f7"
+    },
+    "fig-sim-gauss-3-img2.png": {
+      "figure": 2,
+      "sha256": "2e3b2a119e732ccc41a89fa93f34e65b8cb97e56e66a647420a57fca41225f2f"
+    },
+    "fig-sim-gauss-3-img3.png": {
+      "figure": 2,
+      "sha256": "284dbaa115251a7dbbe76806da5cb08894c3dc6147bcf8e81bbe06ff9d601cb2"
+    },
+    "fig-sim-gauss-3-img4.png": {
+      "figure": 2,
+      "sha256": "32fc2cf39608c3e98b5cccebf512695b86cf2f9664e7205e0399e713a348da69"
+    },
+    "fig-sim-gauss-4.pdf": {
+      "figure": 3,
+      "sha256": "0c19ad113bb0218b361744dcc70e8b954b16522c1299fde1ea73fab4f1f47c40"
+    },
+    "fig-sim-gauss-4.pgf": {
+      "figure": 3,
+      "sha256": "fadc476f03aeebccc55079745613a5adc3de82e1803c1d07e6b59d313cc6c97e"
+    },
+    "fig-sim-normal-1.pdf": {
+      "figure": 4,
+      "sha256": "d30cff8a8049449f5797a19c41516ab400d1d13b4335c4f3ec844d5a29ebca94"
+    },
+    "fig-sim-normal-1.pgf": {
+      "figure": 4,
+      "sha256": "1838050e9edbbda3ad842ce4814c92ae10aa50a416ec06fc75ce7185a383157e"
+    },
+    "fig-sim-normal-1-img0.png": {
+      "figure": 4,
+      "sha256": "5a2fdf1802204e97b259ce854d7c2ceac61bffd2c050874818ffeb911fde7368"
+    },
+    "fig-sim-normal-1-img1.png": {
+      "figure": 4,
+      "sha256": "f7a2518452913996f81c9f4bed29c284702a77c7fd5ec70ce80c579d5b534626"
+    },
+    "fig-sim-normal-1-img2.png": {
+      "figure": 4,
+      "sha256": "7835b30d4eae2dd7b06fc8cad92b80e594616dea4b77c072db71b412ee535ed7"
+    },
+    "fig-sim-normal-2.pdf": {
+      "figure": 5,
+      "sha256": "22fdc39f742bf56e6f4942b9abbaf5e79dacb4e10d8e506eebac9c7783f92589"
+    },
+    "fig-sim-normal-2.pgf": {
+      "figure": 5,
+      "sha256": "3a266632f8e89a59bedfc07f01309649657f79bf7cf72c6a286c45c2db6be4bb"
+    },
+    "fig-sim-normal-3.pdf": {
+      "figure": 6,
+      "sha256": "d811d3f9aec0a2dbdd784ef97a7956cce4efb1b9d005116a268ed7114d309cb8"
+    },
+    "fig-sim-normal-3.pgf": {
+      "figure": 6,
+      "sha256": "4677c74ff641199a5b7f3d4f08e5871142f26c5bb554961946be4b96396569d0"
+    },
+    "fig-real-digits-1.pdf": {
+      "figure": 7,
+      "sha256": "7acefa60e990c5849560993c1b127dd0cd8a9e750ed2de60f2908d90b93d1393"
+    },
+    "fig-real-digits-1.pgf": {
+      "figure": 7,
+      "sha256": "164d7fe521d61834e89263d5a4caa0c0d9563091f96b4621e28ad96e8f71a9f8"
+    },
+    "fig-real-digits-1-img0.png": {
+      "figure": 7,
+      "sha256": "9d38f34f19e2865bbe9ec0afa5083b0a0f4ecc731af39111acc549cd8d7f3a51"
+    },
+    "fig-real-digits-1-img1.png": {
+      "figure": 7,
+      "sha256": "09677b4b9ff8e4c7f1880627fa425b286bdaa46c6a82aeb639e894a968efd18b"
+    },
+    "fig-real-digits-2.pdf": {
+      "figure": 8,
+      "sha256": "a9a94ef228ee127efdd196ee521ad603227f036c3b0d046f70d404dffa88d992"
+    },
+    "fig-real-digits-2.pgf": {
+      "figure": 8,
+      "sha256": "1c9cbdd88e9da68afc6498632e802417958c9c0de1762b7a2b01f7f57cf6aef0"
+    },
+    "fig-real-digits-2-img0.png": {
+      "figure": 8,
+      "sha256": "fa56fa2254512296ea6f1867e2f57ad21443d4f3b43d9e6110e0a85a6118420c"
+    },
+    "fig-real-digits-2-img1.png": {
+      "figure": 8,
+      "sha256": "52376a17e394e465c755e1a44f739ffa746e607b865eff6c59982c3885835282"
+    },
+    "fig-real-digits-2-img2.png": {
+      "figure": 8,
+      "sha256": "ada8d2758dd333c67bf9a33a4eeb14dd5b27eb0220ef019616765b1b6ba9018e"
+    },
+    "fig-real-digits-2-img3.png": {
+      "figure": 8,
+      "sha256": "60adfc2d2e30fdc47d0a1da44b4710fdd9f398d55cb46812bb7793012905babf"
+    },
+    "fig-real-digits-2-img4.png": {
+      "figure": 8,
+      "sha256": "561e90d29527612ccc13604c73a41f72c8a405ef370eda7b797c8bd96ef9bb52"
+    },
+    "fig-real-digits-2-img5.png": {
+      "figure": 8,
+      "sha256": "7c62f54ab07bbf8b72ac69d721561e0acab5bcc72574b7210dd7332ceca17ef6"
+    },
+    "fig-real-clustering-1.pdf": {
+      "figure": 9,
+      "sha256": "45d980c7f45b0f1bd854edd01f0938078329305cdec9b53c115383ab87c8d951"
+    },
+    "fig-real-clustering-1.pgf": {
+      "figure": 9,
+      "sha256": "4443fdae257f316c73ae4fb818fc66515f09a1ce80abd526079b5251b81d82d3"
+    },
+    "fig-real-clustering-1-img0.png": {
+      "figure": 9,
+      "sha256": "1aeb8eea651bff007666979a047dca6fbdcce8b01c8e1b5b96e6047d0531b5ef"
+    },
+    "fig-real-clustering-1-img1.png": {
+      "figure": 9,
+      "sha256": "5c4f05609dfb7617578565ce9308ae3c4ff56d05b96764050e8ea0082d74ce6c"
+    },
+    "fig-real-clustering-1-img2.png": {
+      "figure": 9,
+      "sha256": "3c288d9a6c9a1aba64dcb51abf8e1fdc16fff802739aeb1a0ec5e390782a912f"
+    },
+    "fig-real-clustering-2.pdf": {
+      "figure": 10,
+      "sha256": "12f011ae52f5e51cea2ee1b72ace02da1dfd6f643ba29072ebf049f149a9d8cd"
+    },
+    "fig-real-clustering-2.pgf": {
+      "figure": 10,
+      "sha256": "7c8c9e6011c63c485f0a143abdb3cb00defdf9a613466b32b1657a753a5bbe75"
+    },
+    "fig-real-clustering-2-img0.png": {
+      "figure": 10,
+      "sha256": "5532fae4282f9c85de04d0df8014c39ab93e50627780b58855c3f775cad23481"
+    },
+    "fig-real-clustering-2-img1.png": {
+      "figure": 10,
+      "sha256": "2e43c39beee9fac6819d516d6bbfa7508de5e847b3c593cd4458c8dd88a610a5"
+    },
+    "fig-real-clustering-2-img2.png": {
+      "figure": 10,
+      "sha256": "c6b10f670d4ebc725f90bc14eb4230d58cb6ac4008ab49e2a9f6bea4fa9f10f5"
+    },
+    "fig-real-clustering-2-img3.png": {
+      "figure": 10,
+      "sha256": "61b9d3ccce58e99f98bb5365eb8851abaa187544f0dbae28dde8382ad2cf0421"
+    },
+    "fig-real-clustering-2-img4.png": {
+      "figure": 10,
+      "sha256": "5b8803620e6e77f2699761e6fb0c609611563eb876907ad9311fc68b654fa493"
+    },
+    "fig-real-clustering-2-img5.png": {
+      "figure": 10,
+      "sha256": "c0e6346c6aee436a0b9838baf8b4f7e7141897dbe3e85ccd2211b93c19c5d6d6"
+    },
+    "fig-real-clustering-2-img6.png": {
+      "figure": 10,
+      "sha256": "d3eeee94b0090fb746f773957224594c9553587b917ece04b3e9979c0861b720"
+    },
+    "fig-real-clustering-2-img7.png": {
+      "figure": 10,
+      "sha256": "012247dd684321465f981d50345db7a7b8bdc35a1f2c615ed369aeefb630b353"
+    },
+    "fig-real-clustering-2-img8.png": {
+      "figure": 10,
+      "sha256": "d3d35c8e60a9868eafe08b5f40b47c8f3f2c4fd4fa7c6489e0cdc2485b6464c2"
+    },
+    "fig-real-clustering-2-img9.png": {
+      "figure": 10,
+      "sha256": "fa11a9c0f70c1b71f70c7ccd211bd497def11d6b8123b81e93850f6d938d60e2"
+    },
+    "fig-real-clustering-2-img10.png": {
+      "figure": 10,
+      "sha256": "948465e3ee9f6fe364729e3544bb2cefa2b067aeece23f889ecb8d198958a4de"
+    },
+    "fig-real-clustering-2-img11.png": {
+      "figure": 10,
+      "sha256": "32bb3db34dbe59fed65bad475bec0421ed806ab7572bbe36c4c065f1f2d1af9c"
+    }
+  }
+}

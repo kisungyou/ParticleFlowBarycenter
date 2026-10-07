@@ -1,0 +1,15 @@
+{
+  "gaussian_saved_fits": 36,
+  "wasp_saved_fits": 54,
+  "sensitivity_saved_fits": 12,
+  "saved_rows_match_published_csv": true,
+  "representative_saved_support_metrics_match": true,
+  "full_data_reference_matches": true,
+  "all_sensitivity_metrics_rescored": true,
+  "native_small_case": {
+    "case": "gaussian_1_10_1",
+    "max_support_difference": 0,
+    "niter": 12
+  },
+  "full_experiments_rerun": false
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "splits": [
+    {
+      "rep": 1,
+      "n_train": 1000,
+      "n_test": 2500,
+      "independent_R_metric_max_difference": 1.1102e-16,
+      "balanced_disjoint_split": true,
+      "training_only_candidates": true
+    },
+    {
+      "rep": 2,
+      "n_train": 1000,
+      "n_test": 2500,
+      "independent_R_metric_max_difference": 1.1102e-16,
+      "balanced_disjoint_split": true,
+      "training_only_candidates": true
+    },
+    {
+      "rep": 3,
+      "n_train": 1000,
+      "n_test": 2500,
+      "independent_R_metric_max_difference": 1.1102e-16,
+      "balanced_disjoint_split": true,
+      "training_only_candidates": true
+    }
+  ]
+}

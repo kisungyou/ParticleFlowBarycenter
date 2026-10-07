@@ -1,0 +1,2 @@
+id,rep,support,method,reg_ratio,runtime_sec,niter,objective,residual,relative_change,marginal_error,status,scale2,regularized_objective,exact_residual,all_inner_converged,max_marginal_error,max_objective_increase
+rep02_m200,2,200,sinkhorn_0.3,0.3,6.260074833990075,231,225.63813593198125,9.839086474165038e-08,7.3326644588816996e-09,1.4924629154061675e-10,converged,7.448546137948543,202.53433662893391,0.05831181493301584,True,4.898294664844316e-10,-1.4851163427920255e-06

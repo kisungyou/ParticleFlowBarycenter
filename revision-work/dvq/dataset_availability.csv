@@ -1,0 +1,4 @@
+"data","filename","k","available"
+"pbmc","processed_pbmc.RData",10,TRUE
+"news","processed_news.RData",20,FALSE
+"fashion","processed_fmnist.RData",10,TRUE

@@ -9,12 +9,17 @@ Kisung You
 
 ## Overview
 
-This notebook reproduces the Bayesian posterior aggregation experiment.
+> **Original workflow.** This notebook uses the original iteration caps and native
+> stopping criteria. The [current replication guide](../README.md) points to the
+> checked experiments, saved results, and final PDF/PGF figures. Full mode here
+> runs the original workflow and does not reproduce the added paired comparisons
+> or certify convergence under the joint objective/residual rule.
+
+This notebook runs the original Bayesian posterior aggregation experiment.
 The full-data posterior is available analytically for the simulated
 conjugate linear model, while precomputed MCMC/subset posterior draws
 are supplied in the data file. The notebook then runs the free-support
-barycenter aggregation step and visualizes Wasserstein, moment,
-predictive, coverage, and runtime diagnostics.
+barycenter aggregation step and visualizes Wasserstein, moment, conditional-mean, interval-inclusion, and runtime diagnostics. The intervals concern the conditional mean and omit future-observation noise. Their inclusion rates do not establish predictive or repeated-data calibration.
 
 Before rendering this notebook, place the following file in `../data/`:
 
@@ -22,7 +27,7 @@ Before rendering this notebook, place the following file in `../data/`:
 
 ## Setup
 
-Edit only the first cell for a quick smoke run or a full reproduction.
+Edit only the first cell for a quick smoke run or the full original grid.
 
 ``` r
 # User settings ------------------------------------------------------------
@@ -70,7 +75,7 @@ if (run_compute) {
 
 ## Figures and tables
 
-The manuscript figures are generated in full mode. Smoke mode prints the
+The original figures are generated in full mode. Use `../manuscript-figures/build_figures.py` for the current manuscript figures. Smoke mode prints the
 small assembled result so the reader can confirm that the pipeline is
 working.
 
@@ -96,6 +101,8 @@ if (run_mode == "full") {
     #   pred_interval_width <dbl>
 
 ## Notes
+
+The original CSV field names `pred_rmse_mean`, `pred_interval_coverage`, and `marginal_coverage` are preserved for compatibility. They denote conditional-mean RMSE, conditional-mean inclusion, and coefficient inclusion, respectively.
 
 The precomputed MCMC file is used so that the notebook focuses on the
 barycenter aggregation step. Regenerating all MCMC draws is much more
