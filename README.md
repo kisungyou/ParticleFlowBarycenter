@@ -1,8 +1,6 @@
 # Free-support Wasserstein barycenter replication
 
-Replication materials for **A Particle-Flow Algorithm for Free-Support Wasserstein Barycenters**, aligned with the manuscript and supplement in the second JCGS revision (October 2026).
-
-The current experiments use a classical full-step free-support update, its damped form, and an MM interpretation. The repository separates experiments checked with objective and residual criteria from earlier experiments using iteration caps and native stopping rules. It does not treat a capped output as verified convergence.
+Replication materials for **A Particle-Flow Algorithm for Free-Support Wasserstein Barycenters**. The current experiments use a classical full-step free-support update, its damped form, and an MM interpretation. The repository separates experiments checked with objective and residual criteria from earlier experiments using iteration caps and native stopping rules. It does not treat a capped output as verified convergence.
 
 ## Start with the current results
 
